@@ -1,6 +1,10 @@
 h1{
     text-align: center;
     font-size: 60px;
+    color: black;
+}
+a{
+    text-decoration: none;
 }
 nav{
     display: block;
@@ -8,6 +12,8 @@ nav{
     color: white;
     background-color: #333;
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 #contents{
     display: grid;
@@ -17,13 +23,18 @@ nav{
 body{
     margin:0px;
 }
+#contents{
+    display : grid;
+    grid-template-columns: 200px 1fr;
+}
 #contents ul{
     border-right: 1px solid gray;
     margin: 0px;
     padding-top: 20px;
     list-style-type: none;
-    line-height:180%;
+
 }
 #article{
-    padding-left: 30px;
+   padding-left: 30px;
+
 }
